@@ -1,0 +1,354 @@
+input:focus {
+	outline-color: #696969;
+}
+.box6 {
+	position: absolute;
+	left: 710px;
+	top: 0px;
+	overflow: visible;
+	width: 180px;
+	height: 284px;
+	border-style: hidden;
+	background-color: #B0C4DE;
+	padding: 10px;
+	border-width: 10px;
+}
+.box7 {
+	position: absolute;
+	left: 710px;
+	top: 100px;
+	overflow: visible;
+	width: 198px;
+	height: 1px;
+	background-color: #000000;
+	border-color: #000000;
+	padding: 1px;
+	border-width: 1px;
+}
+.box8 {
+	position: absolute;
+	left: 710px;
+	top: 200px;
+	overflow: visible;
+	width: 198px;
+	height: 1px;
+	background-color: #000000;
+	border-color: #000000;
+	padding: 1px;
+	border-width: 1px;
+}
+.box9 {
+	position: absolute;
+	left: 710px;
+	top: 300px;
+	overflow: visible;
+	width: 198px;
+	height: 1px;
+	background-color: #000000;
+	border-color: #000000;
+	padding: 1px;
+	border-width: 1px;
+}
+.box10 {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+	width: 195px;
+	height: 20px;
+	border-top-color: #FF7F50;
+	border-left-color: #FF7F50;
+	border-right-color: #FF7F50;
+	border-bottom-color: #FF7F50;
+	background-color: #F8F8FF;
+	border-style: ridge;
+	padding: 10px;
+	border-width: 2px;
+}
+.box11 {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+	width: 195px;
+	height: 20px;
+	border-top-color: #FF7F50;
+	border-left-color: #FF7F50;
+	border-right-color: #FF7F50;
+	border-bottom-color: #FF7F50;
+	background-color: #F8F8FF;
+	border-style: ridge;
+	padding: 10px;
+	border-width: 2px;
+}
+.box13 {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+	width: 195px;
+	height: 20px;
+	border-top-color: #FF7F50;
+	border-left-color: #FF7F50;
+	border-right-color: #FF7F50;
+	border-bottom-color: #FF7F50;
+	background-color: #F8F8FF;
+	border-style: ridge;
+	padding: 10px;
+	border-width: 2px;
+}
+.box14 {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+	width: 82px;
+	height: 20px;
+	border-top-color: #FF7F50;
+	border-left-color: #FF7F50;
+	border-right-color: #FF7F50;
+	border-bottom-color: #FF7F50;
+	background-color: #F8F8FF;
+	border-style: ridge;
+	padding: 10px;
+	border-width: 2px;
+}
+.box15 {
+	position: absolute;
+	left: 115px;
+	top: 23px;
+	overflow: visible;
+	width: 82px;
+	height: 20px;
+	border-top-color: #FF7F50;
+	border-left-color: #FF7F50;
+	border-right-color: #FF7F50;
+	border-bottom-color: #FF7F50;
+	background-color: #F8F8FF;
+	border-style: ridge;
+	padding: 10px;
+	border-width: 2px;
+}
+.box16 {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	overflow: visible;
+	width: 195px;
+	height: 20px;
+	border-top-color: #FF7F50;
+	border-left-color: #FF7F50;
+	border-right-color: #FF7F50;
+	border-bottom-color: #FF7F50;
+	background-color: #F8F8FF;
+	border-style: ridge;
+	padding: 10px;
+	border-width: 2px;
+}
+.box17 {
+	position: absolute;
+	left: 58px;
+	top: 400px;
+	overflow: visible;
+	width: 518px;
+	height: 44px;
+	background-color: #FF7F50;
+	border-style: hidden;
+	padding: 10px;
+	font-family: montserrat;
+	font-size: 16px;
+	cursor: pointer;
+}
+.box12 {
+	position: absolute;
+	left: 58px;
+	top: 75px;
+	overflow: visible;
+	width: 290px;
+	height: 1px;
+	background-color: #000000;
+	border-color: #000000;
+	padding: 1px;
+	border-width: 1px;
+}
+
+.checkbox {
+	position: absolute;
+	left: 58px;
+	top: 350px;
+	overflow: visible;
+	width: 350px;
+	height: 50px;
+	border-color: #FF7F50;
+}
+.no_hp {
+	position: absolute;
+	left: 358px;
+	top: 277px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.cewek {
+	position: absolute;
+	left: 501px;
+	top: 225px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+}
+.laki {
+	position: absolute;
+	left: 355px;
+	top: 225px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+}
+.jenis_kelamin {
+	position: absolute;
+	left: 358px;
+	top: 197px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.ttl {
+	position: absolute;
+	left: 358px;
+	top: 117px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.pass {
+	position: absolute;
+	left: 58px;
+	top: 277px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.email {
+	position: absolute;
+	left: 58px;
+	top: 197px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.nama {
+	position: absolute;
+	left: 58px;
+	top: 117px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.form {
+	position: absolute;
+	left: 60px;
+	top: 47px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: chilanka;
+	font-style: bold;
+	font-weight: normal;
+	border-width: 10px;
+	border-color: #000080;
+	color: #000080;
+	font-size: 34px;
+}
+.about1 {
+	position: absolute;
+	left: 760px;
+	top: 137px;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	cursor: pointer;
+}
+.home1 {
+	position: absolute;
+	left: 770px;
+	top: 37px;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: monserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	cursor: pointer;
+}
+.contact1 {
+	position: absolute;
+	left: 725px;
+	top: 237px;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	cursor: pointer;
+}
+.ta {
+	position: absolute;
+	width: 200px;
+	height: 275px;
+	top: 305px;
+	left: 710px;
+}

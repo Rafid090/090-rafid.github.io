@@ -1,0 +1,504 @@
+
+.box_1 {
+	position: absolute;
+	left: 335px;
+	top: 365px;
+	overflow: visible;
+	width: 190px;
+	height: 25px;
+	border-style: hidden;
+	background-color: #FF7F50;
+	padding: 10px;
+}
+.boxx1 {
+	position: absolute;
+	left: 8px;
+	top: 0px;
+	overflow: visible;
+	width: 155px;
+	height: 17px;
+	background-color: #F8F8FF;
+	border-color: #000000;
+	border-style: ridge;
+	padding: 10px;
+}
+.boxx2 {
+	position: absolute;
+	left: 8px;
+	top: 0px;
+	overflow: visible;
+	width: 155px;
+	height: 17px;
+	background-color: #F8F8FF;
+	border-color: #000000;
+	border-style: ridge;
+	padding: 10px;
+}
+.boxx3 {
+	position: absolute;
+	left: 8px;
+	top: 0px;
+	overflow: visible;
+	width: 155px;
+	height: 17px;
+	background-color: #F8F8FF;
+	border-color: #000000;
+	border-style: ridge;
+	padding: 10px;
+}
+.boxx4 {
+	position: absolute;
+	left: 455px;
+	top: 308px;
+	overflow: visible;
+	width: 155px;
+	height: 128px;
+	background-color: #F8F8FF;
+	border-color: #000000;
+	border-style: ridge;
+	padding: 10px;
+}
+.kotak {
+	position: absolute;
+	left: 380px;
+	top: 468px;
+	border-radius: 30px 30px 30px 30px;
+	border-top-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	overflow: visible;
+	width: 125px;
+	height: 46px;
+	border-style: ridge;
+	background-color: #F8F8FF;
+	padding: 10px;
+	border-width: 2px;
+	font-family: montserrat;
+	font-size: 16px;
+	cursor: pointer;
+}
+.happy {
+	position: absolute;
+	width: 350px;
+	height: 208px;
+	top: 60px;
+	left: 265px;
+}
+.happy1 {
+	position: absolute;
+	width: 150px;
+	height: 208px;
+	top: 378px;
+	left: 0px;
+}
+
+.confirm {
+	position: absolute;
+	left: 302px;
+	top: 320px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: chilanka;
+	font-style: bold;
+	font-size: 30px;
+	color: #4169E1;
+}
+.lanjut {
+	position: absolute;
+	left: 374px;
+	top: 374px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: bold;
+	font-weight: normal;
+	font-size: 24px;
+	color: #000000;
+	cursor: pointer;
+}
+.contact_1 {
+	position: absolute;
+	left: 348px;
+	top: 265px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: chilanka;
+	font-style: bold;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;
+}
+.contactus {
+	position: absolute;
+	width: 360px;
+	height: 205px;
+	top: 55px;
+	left: 260px;
+}
+
+.telp {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 528px;
+	left: 283px;
+}
+.twitter {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 523px;
+	left: 347px;
+}
+.fb {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 528px;
+	left: 420px;
+}
+.gmail {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 528px;
+	left: 485px;
+}
+.in {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 528px;
+	left: 550px;
+}
+.setting {
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	top: 485px;
+	left: 58px;
+
+}
+.sent {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 475px;
+	left: 388px;
+	cursor: pointer;
+}
+.send {
+	position: absolute;
+	left: 418px;
+	top: 482px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: chilanka;
+	font-style: bold;
+	font-size: 22px;
+	color: #000000;
+	cursor: pointer;
+}
+.contact_nama {
+	position: absolute;
+	left: 240px;
+	top: 308px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.contact_email {
+	position: absolute;
+	left: 240px;
+	top: 363px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.contact_no {
+	position: absolute;
+	left: 240px;
+	top: 418px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.contact_pesan {
+	position: absolute;
+	left: 445px;
+	top: 308px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.profil1 {
+	position: absolute;
+	left: 12px;
+	top: 10px;
+	width: 65px;
+	height: 65px;
+	cursor: pointer;
+}
+.game {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 420px;
+	left: 735px;
+}
+.akun {
+	position: absolute;
+	left: 83px;
+	top: 30px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+}
+.underline {
+	position: absolute;
+	left: 68px;
+	top: 130px;
+	overflow: visible;
+	width: 235px;
+	height: 1px;
+	background-color: #000000;
+	border-color: #000000;
+	padding: 1px;
+	border-width: 1px;
+}
+.myprofil2 {
+	position: absolute;
+	left: 78px;
+	top: 96px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: chilanka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+}
+.nama_profil {
+	position: absolute;
+	left: 78px;
+	top: 165px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.nama_profil1 {
+	position: absolute;
+	left: 288px;
+	top: 165px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.email_profil1 {
+	position: absolute;
+	left: 78px;
+	top: 214px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.email_profil2 {
+	position: absolute;
+	left: 288px;
+	top: 214px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.tempat_profil1 {
+	position: absolute;
+	left: 78px;
+	top: 263px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.tempat_profil2 {
+	position: absolute;
+	left: 288px;
+	top: 263px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.ttl_profil1 {
+	position: absolute;
+	left: 78px;
+	top: 311px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.ttl_profil2 {
+	position: absolute;
+	left: 288px;
+	top: 311px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.jenis_profil1 {
+	position: absolute;
+	left: 78px;
+	top: 360px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.jenis_profil2 {
+	position: absolute;
+	left: 288px;
+	top: 360px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.no_profil1 {
+	position: absolute;
+	left: 78px;
+	top: 409px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #0000CD;
+}
+.no_profil2 {
+	position: absolute;
+	left: 288px;
+	top: 409px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000CD;
+	font-size: 18px;
+}
+.kotak_profil {
+	position: absolute;
+	left: 70px;
+	top: 155px;
+	overflow: visible;
+	width: 498px;
+	height: 287px;
+	background-color: #F8F8FF;
+	border-color: #000000;
+	border-style: ridge;
+	padding: 10px;
+}
+.setting_profil {
+	position: absolute;
+	left: 108px;
+	top: 496px;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: chilanka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #000000;
+}

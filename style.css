@@ -1,0 +1,1037 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+html {
+	scroll-behavior: smooth;
+}
+nav{
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+	background-color: #35495E;
+	font-family: 'Justice Sans One',sans-serif;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 3px;
+	width: 100%;
+	z-index: 1;
+}
+.logo {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.line4 {
+	width: 400px;
+	height: 3px;
+	background-color: white;
+	filter: drop-shadow(7px 5px 7px black);
+
+}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+}
+.navbar a{
+	flex: 1;
+	margin: auto;
+	padding: 20px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Justice Sans One',sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+.navbar li {
+	list-style: none;
+	display: flex;
+}
+.navbar a:hover {
+	background-color: lightyellow;
+	color: black;
+	transition: 1s color ease-in;
+}
+.empty {
+	width: 100%;
+	background-color: transparent;
+	height: 25vh;
+	padding-top: 100px;
+}
+.isi {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.bg {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 140%;
+	z-index: -1;
+	opacity: 0.9;
+	background: linear-gradient(to right, white, grey);
+}
+.kosong {
+	display: flex;
+	flex: 0.4;
+	background-color: transparent;
+}
+.intro {
+	flex: 1.2;
+	margin: auto;
+	align-items: center;
+}
+.teks {
+	font-size: 32px;
+	font-weight: 500;
+	font-family: 'Libre Baskerville',serif;
+	letter-spacing: 3px;
+	border-width: 10px;
+	width: 390px;
+	color: white;
+	filter: drop-shadow(7px 5px 7px black);
+	-webkit-background-clip: text;
+	margin-left: 60px;
+	animation: drop 1.5s ease-in;
+	margin-top: 150px;
+}
+
+.intro p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: white;
+}
+.tentang {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	margin-top: 168px;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	width: 100%;
+	background-color: lightyellow;
+	border-right-style: ridge;
+	font-weight: 700px;
+	border-top-style: ridge;
+	border-color: black;
+	font-family: 'Justice Sans One',sans-serif;
+	font-size: 30px;
+	border-width: 2px;
+}
+.about b {
+	margin-left: 216px;
+	margin-top: 60px;
+	flex: 1;
+}
+.teks-about {
+	font-size: 28px;
+	font-weight: 500;
+	font-family: chilanka;
+	letter-spacing: 3px;
+	border-width: 10px;
+	width: 400px;
+	color: black;
+	-webkit-background-clip: text;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: space-around;
+}
+.contact{
+	display: flex;
+	flex: 1;
+	width: 100%;
+	background-color: lightgrey;
+	border-width: 2px;
+	border-top-style: ridge;
+	border-color: black;
+	border-right-style: ridge;
+}
+.contact-per {
+	width: 100%;
+	font-family: 'Justice Sans One',sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.contact-per b{
+	margin-left: 200px;
+}
+.teks-contact {
+	flex-direction: column;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: chilanka;
+	letter-spacing: 3px;
+	border-width: 10px;
+	width: 400px;
+	color: black;
+	-webkit-background-clip: text;
+	margin: auto;
+	margin-left: 50px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	justify-content: space-around;
+}
+.profil {
+	width: 65vh;
+	opacity: 0.9;
+	border-radius: 100%;
+	border-style: ridge;
+	border-color: white;
+	filter: drop-shadow(5px 5px 5px black);
+	justify-content: space-around;
+	margin-top: 150px;
+}
+.bio {
+	width: 420px;
+	height: 300px;
+	font-family: chilanka;
+	font-size: 28px;
+	color: black;
+	left: 125px;
+	top: 805px;
+	justify-content: space-around;
+	letter-spacing: 3px;
+	border-width: 10px;
+}
+.wa,.line,.empty1{
+	display: flex;
+	height: 60px;
+	width: 500px;
+	margin-bottom: 50px; 
+}
+.gmail {
+	display: flex;
+	height: 60px;
+	width: 500px;
+	margin-bottom: 30px;
+}
+.wa-img {
+	height: 300px;
+	width: 500px;
+	flex: 0.25;
+	padding-bottom: 200px;
+}
+.wa-teks{
+	display: flex;
+	padding-left: 10px;
+	flex: 1;
+	padding-top: 40px;
+}
+
+.gmail-img {
+	height: 60px;
+	width: 60px;
+	flex: 0.25;
+}
+.gmail-teks{
+	padding-left: 10px;
+	flex: 1;
+	padding-top: 20px;
+}
+.line-img {
+	height: 58px;
+	width: 100px;
+	flex: 0.25;
+	margin-bottom: 20px;
+}
+.line-teks {
+	flex: 1;
+	width: 100px;
+	height: 200px;
+	padding-top: 20px;
+	padding-left: 8px;
+}
+.teks-skill {
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	margin: auto;
+	background-color: #FAEBD7;
+	border-top-style: ridge;
+	border-color: black;
+	font-family: montserrat;
+	font-size: 34px;
+	padding-left: 600px;
+	padding-top: 20px;
+	border-right-style: ridge;
+	border-color: black;
+}
+.skill {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	border-right-style: ridge;
+	border-color: black;
+}
+
+.kosong1 {
+	display: flex;
+	flex: 1.4;
+	background-color: #FAEBD7;
+	flex-direction: column;
+}
+.myskill {
+	display: flex;
+	flex: 0.8;
+	flex-direction: column;
+	width: 100%;
+	background-color: #FAEBD7;
+	height: 40vh;
+	font-family: 'Libre Baskerville',serif;
+	font-size: 34px;
+	padding-top: 20px;
+}
+.kosong2 {
+	display: flex;
+	flex: 1;
+	background-color: #FAEBD7;
+	flex-direction: column;
+}
+.skill1 {
+	font-family: 'Justice Sans One',sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 165px;
+	width: 300px;
+	color: red;
+}
+.skill1-a{
+	font-family: chilanka;
+	font-size: 24px;
+	margin-right: 20px;
+	margin-left: 115px;
+	letter-spacing: 1.2px;
+	color: navy;
+}
+.img-skill1 {
+	height: 60px;
+	width: 60px;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+.skill2 {
+	font-family: 'Justice Sans One',sans-serif;
+	font-weight: bold;
+	font-size: 17px;;
+	width: 300px;
+	margin-left: 17px;
+	color: red;
+}
+.skill2-a {
+	font-family: chilanka;
+	font-size: 24px;
+	margin-right: 20px;
+	letter-spacing: 1.2px;
+	color: navy;
+}
+.img-skill2 {
+	height: 50px;
+	width: 50px;
+	margin-top: 69px;
+	margin-left: 75px;
+}
+.skill3 {
+	font-family: 'Justice Sans One',sans-serif;
+	font-weight: bold;
+	font-size: 17px;;
+	width: 300px;
+	margin-left: 77px;
+	color: red;
+}
+.skill3-a {
+	font-family: chilanka;
+	font-size: 24px;
+	margin-left: 120px;
+	letter-spacing: 1.2px;
+	margin-top: 2px;
+	color: navy;
+}
+.img-skill3 {
+	height: 50px;
+	width: 50px;
+	margin-top: 85px;
+	margin-left: 135px;
+}
+.teks-project {
+	width: 100%;
+	display: flex;
+	font-family: montserrat;
+	font-size: 34px;
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 525px;
+	background-color: azure;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-color: black; 
+	padding-bottom: 30px;
+}
+.project {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	background-color: azure;
+	height: 40%;
+	border-right-style: ridge;
+	border-color: black;
+	padding-bottom: 100px;
+}
+.project1,.project2,.project3 {
+	flex-direction: column;
+	flex: 1;
+}
+.project1-img {
+	width: 180px;
+	height: 148px;
+	margin: auto;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%; 
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	margin-left: 130px; 
+	margin-top: 40px;
+	margin-bottom: 28px;
+	filter: drop-shadow(5px 5px 5px black);
+}
+.project1-img:hover {
+	transform: scale(1.3);
+}
+.project2-img {
+	width: 180px;
+	height: 148px;
+	margin: auto;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%; 
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	margin-left: 130px; 
+	margin-top: 40px;
+	margin-bottom: 28px;
+	filter: drop-shadow(5px 5px 5px black);
+}
+.project2-img:hover {
+	transform: scale(1.3);
+}
+.project3-img {
+	width: 180px;
+	height: 148px;
+	margin: auto;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%; 
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	margin-left: 130px; 
+	margin-top: 40px;
+	margin-bottom: 28px;
+	filter: drop-shadow(5px 5px 5px black);
+}
+.project3-img:hover {
+	transform: scale(1.3);
+}
+.file1 {
+	margin: auto;
+	text-decoration: none;
+	color: navy;
+	font-family: 'Justice Sans One',sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 158px;
+}
+.file2,.file3 {
+	margin: auto;
+	text-decoration: none;
+	color: navy;
+	font-family: 'Justice Sans One',sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 168px;
+}
+.foot-box{
+	height: 10vh;
+	text-align: center;
+	background-color: #35495E;
+	padding-top: 20px;
+}
+.foot-box b{
+	font-family: 'Libre Baskerville',serif;
+	font-size: 12px;
+	margin: auto;
+	font-weight: 800px;
+	color: white;
+}
+
+@media screen and (max-width: 1144px) {
+	.teks {
+		margin-top: 30px;
+		margin-left: 80px;
+		width: 300px;
+	}
+	.teks b {
+		font-size: 24px;
+		letter-spacing: 2.6px;
+		text-align: center;
+	}
+	.about b {
+		margin-left: 113px;
+		margin-top: 50px;
+	}
+	.intro {
+		margin-top: 200px;
+	}
+	.profil {
+		width: 45vh;
+	}
+	.line4 {
+		width: 320px;
+	}
+	.teks i {
+		font-size: 19px;
+		letter-spacing: 2px;
+	}
+	.contact-per b {
+		margin-left: 100px;
+	}
+	.wa,.gmail,.line{
+		height: 30px;
+		width: 500px;
+		margin-bottom: 30px;
+	}
+	.wa-teks{
+		font-size: 20px;
+	}
+	.wa-img {
+		flex: 0.15;
+	}
+	.gmail-teks {
+		font-size: 20px;
+	}
+	.gmail-img {
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 42px;
+		width: 42px;
+		flex: 0.15;
+	}
+	.line-teks {
+		font-size: 20px;
+	}
+	.line-img {
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 42px;
+		width: 42px;
+		flex: 0.15;
+	}
+	.teks-contact {
+		margin-left: 20px;
+	}
+	.teks-skill {
+		padding-left: 400px;
+	}
+	.skill1 {
+		font-size: 12px;
+		margin-left: 46px;
+	}
+	.skill2 {
+		font-size: 12px;
+		margin-left: 22px;
+	}
+	.skill3 {
+		font-size: 12px;
+		margin-left: 0px;
+	}
+	.skill1-a,.skill2-a{
+		font-size: 16px;
+		margin-left: 12px;
+	}
+	.skill3-a {
+		font-size: 16px;
+		margin-left: 36px;
+	}
+	.img-skill1 {
+		height: 40px;
+		width: 40px;
+		margin-left: 76px;
+	}
+	.img-skill2 {
+		height: 40px;
+		width: 40px;
+		margin-left: 66px;
+	}
+	.img-skill3 {
+		height: 40px;
+		width: 40px;
+		margin-left: 40px;
+	}
+	.teks-project {
+		padding-left: 312px;
+	}
+	.project1-img,.project2-img,.project3-img {
+		width: 120px;
+		height: 120px;
+	}
+	.file1 {
+		font-size: 16px;
+		margin: auto;
+		margin-left: 130px;
+	}
+	.file2,.file3 {
+		font-size: 16px;
+		margin-left: 145px;
+	}
+	}
+@media screen and (max-width: 868px) {
+	body {
+		overflow-x: hidden;
+	}
+	.logo {
+		opacity: 1;
+		font-size: 20px;
+		padding-left: 40px;
+	}
+	.navbar a {
+		padding-right: 10px;
+		padding-left: 10px;
+		font-size: 18px;
+	}
+	.intro {
+		margin-top: 50px;
+	}
+	.isi {
+		flex-direction: column;
+		width: 100%;
+	}
+	.teks {
+		margin-top: 30px;
+		margin-left: 80px;
+		width: 400px;
+	}
+	.teks b {
+		font-size: 20px;
+		letter-spacing: 2.4px;
+		text-align: center;
+	}
+	.line4 {
+		width: 320px;
+	}
+	.teks i {
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+	.profil {
+		margin-top: 80px;
+		width: 45vh;
+		animation: drop 1.5s ease-in;
+	}
+	.tentang {
+		flex-direction: column;
+	}
+	.teks-about {
+		font-size: 19px;
+		font-family: chilanka;
+		padding-left: 20px;
+	}
+	.about b {
+		margin-left: 163px;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	.teks-contact {
+		display: flex;
+		font-family: 'Justice Sans One',sans-serif
+	}
+	.contact-per b{
+		margin-left: 150px;
+	}
+	.wa,.line{
+		height: 30px;
+		width: 500px;
+		margin-bottom: 50px;
+	}
+	.gmail {
+		height: 30px;
+		width: 500px;
+		margin-bottom: 30px;
+	}
+	.contact {
+		width: 100%;
+	}
+	.wa-teks{
+		font-size: 16px;
+		margin-top: 6px;
+		padding-left: 3px;
+	}
+	.wa-img {
+		flex: 0.135;
+	}
+	.gmail-teks {
+		font-size: 16px;
+	}
+	.gmail-img {
+		margin-left: 8px;
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 38px;
+		width: 38px;
+		flex: 0.1;
+	}
+	.line-teks {
+		font-size: 16px;
+	}
+	.line-img {
+		margin-left: 9px;
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 38px;
+		width: 38px;
+		flex: 0.1;
+	}
+	.teks-contact {
+		margin-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.contact-per {
+		padding-top: 20px;
+		margin-left: 0px;
+		font-size: 20px;
+	}
+	.teks-skill {
+		padding-left: 188px;
+		font-family: 'Justice Sans One',sans-serif;
+		font-size: 20px;
+		border-right-style: ridge;
+		border-color: black;
+	}
+	.skill {
+		flex-direction: column;
+		border-right-style: ridge;
+		border-color: black;
+	}
+	.kosong1,.myskill,.kosong2 {
+		flex-direction: row;
+	}
+	.skill1 {
+		font-size: 12px;
+		margin-left: 28px;
+		margin-top: 8px;
+	}
+	.skill2 {
+		font-size: 12px;
+		margin-left: 11px;
+		margin-top: 8px; 
+	}
+	.skill3 {
+		font-size: 12px;
+		margin-left: 83px;
+		margin-top: 12px;
+	}
+	.skill1-a,.skill2-a{
+		font-size: 16px;
+		margin-left: 36px;
+		margin-top: 4px;
+		flex: 1;
+	}
+	.skill3-a {
+		font-size: 16px;
+		margin-left: 36px;
+		margin-top: 14px;
+		flex: 1; 
+	}
+	.img-skill1 {
+		height: 30px;
+		width: 30px;
+		margin-left: 56px;
+		margin-top: 3px;
+	}
+	.img-skill2 {
+		height: 30px;
+		width: 30px;
+		margin-left: 56px;
+		margin-top: 5px;
+	}
+	.img-skill3 {
+		height: 30px;
+		width: 30px;
+		margin-left: 56px;
+		margin-top: 5px;
+		margin-bottom: 80px;
+	}
+	.project {
+		flex-direction: column;
+	}
+	.teks-project {
+		padding-left: 150px;
+		font-size: 20px;
+	}
+	.project1,.project2,.project3 {
+		flex-direction: row;
+	}
+	.project1-img{
+		height: 100px;
+		width: 108px;
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 40px;
+		margin-bottom: -40px;
+	}
+	.project2-img,.project3-img {
+		height: 100px;
+		width: 110px;
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 80px;
+		margin-bottom: -40px;
+	}
+	.file1,.file2,.file3{
+		font-size: 14px;
+		margin: auto;
+		margin-left: 30px;
+		flex: 1;
+	}
+}
+@media screen and (max-width: 434px) {
+	body {
+		overflow-x: hidden;
+	}
+	.logo {
+		opacity: 1;
+		font-size: 14px;
+		padding-left: 20px;
+	}
+	.navbar a {
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 12px;
+	}
+	.intro {
+		margin-top: 25px;
+	}
+	.isi {
+		flex-direction: column;
+		width: 100%;
+	}
+	.teks {
+		margin-top: 30px;
+		margin-left: 20px;
+		width: 200px;
+	}
+	.teks b {
+		font-size: 16px;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+	.line4 {
+		width: 200px;
+	}
+	.teks i {
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	.profil {
+		margin-top: 80px;
+		width: 30vh;
+		animation: drop 1.5s ease-in;
+	}
+	.tentang {
+		flex-direction: column;
+	}
+	.about {
+		width: 100%;
+	}
+	.teks-about {
+		width: 250px;
+		font-size: 15px;
+		font-family: chilanka;
+		padding-left: 20px;
+	}
+	.about b {
+		margin-left: 20px;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	.contact {
+		width: 100%;
+	}
+	.teks-contact {
+		display: flex;
+		font-family: 'Justice Sans One',sans-serif
+		margin-left: 13px;
+	}
+	.contact-per b{
+		margin-left: -160px;
+	}
+	.wa,.line{
+		height: 30px;
+		width: 280px;
+		margin-bottom: 50px;
+	}
+	.gmail {
+		height: 30px;
+		width: 280px;
+		margin-bottom: 30px;
+	}
+	.wa-teks{
+		font-size: 10px;
+		margin-top: 6px;
+		padding-left: 3px;
+	}
+	.wa-img {
+		flex: 0.07;
+	}
+	.gmail-teks {
+		font-size: 10px;
+	}
+	.gmail-img {
+		margin-left: 8px;
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 28px;
+		width: 28px;
+		flex: 0.1;
+	}
+	.line-teks {
+		font-size: 10px;
+	}
+	.line-img {
+		margin-left: 9px;
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 28px;
+		width: 28px;
+		flex: 0.1;
+	}
+	.teks-contact {
+		margin-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.contact-per {
+		padding-top: 20px;
+		padding-left: 162px;
+		font-size: 20px;
+	}
+	.teks-skill {
+		padding-left: 23px;
+		font-family: 'Justice Sans One',sans-serif;
+		font-size: 20px;
+		border-right-style: ridge;
+		border-color: black;
+	}
+	.skill {
+		flex-direction: column;
+		border-right-style: ridge;
+		border-color: black;
+	}
+	.kosong1,.myskill,.kosong2 {
+		flex-direction: row;
+	}
+	.skill1 {
+		font-size: 8px;
+		margin-left: 18px;
+		margin-top: 8px;
+	}
+	.skill2 {
+		font-size: 8px;
+		margin-left: 8px;
+		margin-top: 8px; 
+	}
+	.skill3 {
+		font-size: 8px;
+		margin-left: 63px;
+		margin-top: 12px;
+	}
+	.skill1-a,.skill2-a{
+		font-size: 10px;
+		margin-left: 16px;
+		margin-top: 4px;
+		flex: 1;
+	}
+	.skill3-a {
+		font-size: 10px;
+		margin-left: 16px;
+		margin-top: 14px;
+		flex: 1; 
+	}
+	.img-skill1 {
+		height: 20px;
+		width: 20px;
+		margin-left: 26px;
+		margin-top: 3px;
+	}
+	.img-skill2 {
+		height: 20px;
+		width: 20px;
+		margin-left: 26px;
+		margin-top: 5px;
+	}
+	.img-skill3 {
+		height: 20px;
+		width: 20px;
+		margin-left: 26px;
+		margin-top: 5px;
+		margin-bottom: 80px;
+	}
+	.project {
+		flex-direction: column;
+	}
+	.teks-project {
+		padding-left: 23px;
+		font-size: 20px;
+	}
+	.project1,.project2,.project3 {
+		flex-direction: row;
+	}
+	.project1-img{
+		height: 100px;
+		width: 108px;
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 40px;
+		margin-bottom: -40px;
+	}
+	.project2-img,.project3-img {
+		height: 100px;
+		width: 110px;
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 80px;
+		margin-bottom: -40px;
+	}
+	.file1,.file2,.file3{
+		font-size: 14px;
+		margin: auto;
+		margin-left: 30px;
+		flex: 1;
+	}
+}
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
