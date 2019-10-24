@@ -810,6 +810,11 @@ nav{
 		flex: 1;
 	}
 }
+@media screen and (max-width: 628px) {
+	.teks-skill {
+		padding-left : 360px;
+		padding-top : 20px;
+}
 @media screen and (max-width: 434px) {
 	body {
 		overflow-x: hidden;
