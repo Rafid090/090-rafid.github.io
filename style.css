@@ -743,7 +743,7 @@ nav{
 	}
 	.skill3 {
 		font-size: 12px;
-		margin-left: 83px;
+		margin-left: 23px;
 		margin-top: 12px;
 	}
 	.skill1-a,.skill2-a{
@@ -774,14 +774,14 @@ nav{
 		height: 30px;
 		width: 30px;
 		margin-left: 56px;
-		margin-top: 5px;
+		margin-top: 9px;
 		margin-bottom: 80px;
 	}
 	.project {
 		flex-direction: column;
 	}
 	.teks-project {
-		padding-left: 313px;
+		padding-left: 333px;
 		font-size: 20px;
 	}
 	.project1,.project2,.project3 {
