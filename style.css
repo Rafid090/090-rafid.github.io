@@ -354,7 +354,7 @@ nav{
 	font-family: 'Justice Sans One',sans-serif;
 	font-weight: bold;
 	font-size: 17px;;
-	width: 250px;
+	width: 300px;
 	margin-left: 77px;
 	color: red;
 }
@@ -600,7 +600,7 @@ nav{
 		margin-left: 145px;
 	}
 	}
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 968px) {
 	body {
 		overflow-x: hidden;
 	}
@@ -781,7 +781,7 @@ nav{
 		flex-direction: column;
 	}
 	.teks-project {
-		padding-left: 290px;
+		padding-left: 313px;
 		font-size: 20px;
 	}
 	.project1,.project2,.project3 {
