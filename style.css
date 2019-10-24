@@ -600,12 +600,12 @@ nav{
 		margin-left: 145px;
 	}
 	}
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 888px) {
 	.teks-skill {
 		padding-left : 320px;
 		padding-top : 20px;
 }
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
 	body {
 		overflow-x: hidden;
 	}
