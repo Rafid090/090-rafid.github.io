@@ -601,10 +601,214 @@ nav{
 	}
 	}
 @media screen and (max-width: 888px) {
+	body {
+		overflow-x: hidden;
+	}
+	.logo {
+		opacity: 1;
+		font-size: 20px;
+		padding-left: 40px;
+	}
+	.navbar a {
+		padding-right: 10px;
+		padding-left: 10px;
+		font-size: 18px;
+	}
+	.intro {
+		margin-top: 50px;
+	}
+	.isi {
+		flex-direction: column;
+		width: 100%;
+	}
+	.teks {
+		margin-top: 30px;
+		margin-left: 80px;
+		width: 400px;
+	}
+	.teks b {
+		font-size: 20px;
+		letter-spacing: 2.4px;
+		text-align: center;
+	}
+	.line4 {
+		width: 320px;
+	}
+	.teks i {
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+	.profil {
+		margin-top: 80px;
+		width: 45vh;
+		animation: drop 1.5s ease-in;
+	}
+	.tentang {
+		flex-direction: column;
+	}
+	.teks-about {
+		font-size: 19px;
+		font-family: chilanka;
+		padding-left: 20px;
+	}
+	.about b {
+		margin-left: 323px;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	.teks-contact {
+		display: flex;
+		font-family: 'Justice Sans One',sans-serif
+	}
+	.contact-per b{
+		margin-left: 350px;
+	}
+	.wa,.line{
+		height: 30px;
+		width: 500px;
+		margin-bottom: 50px;
+	}
+	.gmail {
+		height: 30px;
+		width: 500px;
+		margin-bottom: 30px;
+	}
+	.contact {
+		width: 100%;
+	}
+	.wa-teks{
+		font-size: 16px;
+		margin-top: 6px;
+		padding-left: 3px;
+	}
+	.wa-img {
+		flex: 0.135;
+	}
+	.gmail-teks {
+		font-size: 16px;
+	}
+	.gmail-img {
+		margin-left: 8px;
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 38px;
+		width: 38px;
+		flex: 0.1;
+	}
+	.line-teks {
+		font-size: 16px;
+	}
+	.line-img {
+		margin-left: 9px;
+		margin-top: 7px;
+		padding-top: 5px;
+		height: 38px;
+		width: 38px;
+		flex: 0.1;
+	}
+	.teks-contact {
+		margin-left: 20px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.contact-per {
+		padding-top: 20px;
+		margin-left: 0px;
+		font-size: 20px;
+	}
 	.teks-skill {
-		padding-left : 320px;
-		padding-top : 20px;
-}
+		padding-left: 328px;
+		font-family: 'Justice Sans One',sans-serif;
+		font-size: 20px;
+		border-right-style: ridge;
+		border-color: black;
+	}
+	.skill {
+		flex-direction: column;
+		border-right-style: ridge;
+		border-color: black;
+	}
+	.kosong1,.myskill,.kosong2 {
+		flex-direction: row;
+	}
+	.skill1 {
+		font-size: 12px;
+		margin-left: 28px;
+		margin-top: 8px;
+	}
+	.skill2 {
+		font-size: 12px;
+		margin-left: 11px;
+		margin-top: 8px; 
+	}
+	.skill3 {
+		font-size: 12px;
+		margin-left: 83px;
+		margin-top: 12px;
+	}
+	.skill1-a,.skill2-a{
+		font-size: 16px;
+		margin-left: 36px;
+		margin-top: 4px;
+		flex: 1;
+	}
+	.skill3-a {
+		font-size: 16px;
+		margin-left: 36px;
+		margin-top: 14px;
+		flex: 1; 
+	}
+	.img-skill1 {
+		height: 30px;
+		width: 30px;
+		margin-left: 56px;
+		margin-top: 3px;
+	}
+	.img-skill2 {
+		height: 30px;
+		width: 30px;
+		margin-left: 56px;
+		margin-top: 5px;
+	}
+	.img-skill3 {
+		height: 30px;
+		width: 30px;
+		margin-left: 56px;
+		margin-top: 5px;
+		margin-bottom: 80px;
+	}
+	.project {
+		flex-direction: column;
+	}
+	.teks-project {
+		padding-left: 150px;
+		font-size: 20px;
+	}
+	.project1,.project2,.project3 {
+		flex-direction: row;
+	}
+	.project1-img{
+		height: 100px;
+		width: 108px;
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 40px;
+		margin-bottom: -40px;
+	}
+	.project2-img,.project3-img {
+		height: 100px;
+		width: 110px;
+		margin: auto;
+		margin-left: 30px;
+		margin-top: 80px;
+		margin-bottom: -40px;
+	}
+	.file1,.file2,.file3{
+		font-size: 14px;
+		margin: auto;
+		margin-left: 30px;
+		flex: 1;
+	}
 @media screen and (max-width: 768px) {
 	body {
 		overflow-x: hidden;
