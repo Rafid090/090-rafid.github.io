@@ -354,7 +354,7 @@ nav{
 	font-family: 'Justice Sans One',sans-serif;
 	font-weight: bold;
 	font-size: 17px;;
-	width: 300px;
+	width: 250px;
 	margin-left: 77px;
 	color: red;
 }
@@ -584,7 +584,7 @@ nav{
 		margin-left: 40px;
 	}
 	.teks-project {
-		padding-left: 312px;
+		padding-left: 392px;
 	}
 	.project1-img,.project2-img,.project3-img {
 		width: 120px;
@@ -661,7 +661,7 @@ nav{
 		font-family: 'Justice Sans One',sans-serif
 	}
 	.contact-per b{
-		margin-left: 350px;
+		margin-left: 334px;
 	}
 	.wa,.line{
 		height: 30px;
@@ -717,7 +717,7 @@ nav{
 		font-size: 20px;
 	}
 	.teks-skill {
-		padding-left: 328px;
+		padding-left: 368px;
 		font-family: 'Justice Sans One',sans-serif;
 		font-size: 20px;
 		border-right-style: ridge;
@@ -781,7 +781,7 @@ nav{
 		flex-direction: column;
 	}
 	.teks-project {
-		padding-left: 150px;
+		padding-left: 290px;
 		font-size: 20px;
 	}
 	.project1,.project2,.project3 {
